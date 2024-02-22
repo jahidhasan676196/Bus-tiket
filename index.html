@@ -4,8 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bus tiket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="container w-auto">
+    <header>
+        <!-- navbar -->
+        <nav class="mx-32">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-xl">P-Ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class=" w-max bg-[#1DD1001A] btn navbar-end">
+                  <a class="">Bus</a>
+                  <img src="images/bus-icon.png" alt="">
+                </div>
+              </div>
+        </nav>
+        <!-- banner section -->
+        <section>
+            <div class="mx-32 mt-24">
+                <img  src="images/banner.png" alt="">
+                <div class="flex flex-col justify-center items-center w-[1171px] absolute top-56 space-y-6 text-white">
+                    <h1 class="text-6xl ">
+                        End-to-End Travel with <br> 
+                        <span class="text-[#1DD100]">P Paribahan</span>
+                    </h1>
+                    <p class="">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined </p>
+                    <button class="btn bg-[#1DD100]">Buy Tickets</button>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
