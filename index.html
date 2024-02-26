@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="container w-auto">
+<body class="container ">
     <header>
         <!-- navbar -->
         <nav class="mx-32">
@@ -41,22 +41,53 @@
               </div>
         </nav>
         <!-- banner section -->
-        <section>
-            <div class="mx-32 mt-24">
+        <section class="w-full">
+            <div class=" lg:mx-32 lg:mt-24 relative">
                 <img  src="images/banner.png" alt="">
-                <div class="flex flex-col justify-center items-center w-[1171px] absolute top-56 space-y-6 text-white">
-                    <h1 class="text-6xl ">
-                        End-to-End Travel with <br> 
-                        <span class="text-[#1DD100]">P Paribahan</span>
-                    </h1>
-                    <p class="">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined </p>
+                <div class="flex flex-col  justify-center  items-center w-[742px] absolute top-16 left-48 right-52  space-y-6 text-white">
+                    <h1 class="text-6xl ">End-to-End Travel with</h1>
+                    <h1 class="text-[#1DD100] text-6xl">P Paribahan</h1>
+                    <p class="px-6">Yes, you can run unit tests and view the results directly within the app. The 
+                    integrated testing features allow for a streamlined</p>
                     <button class="btn bg-[#1DD100]">Buy Tickets</button>
                 </div>
             </div>
         </section>
+        <!-- offer section -->
+        <section class="flex flex-col justify-center items-center space-y-11 relative top-28">
+          <h1 class="text-4xl text-[#030712]">Best offers for you</h1>
+          <div class="flex flex-row gap-6 ">
+            <div class="flex flex-row bg-[#FFBF0F] rounded-3xl w-[573px]">
+              <div class="flex flex-col justify-center items-center text-[#030712CC]">
+                <h1 class="text-4xl ">15% OFF</h1>
+                <p class="text-xl ">on your next purchase</p>
+                <p class="text-xs text-[#03071280]">use by January 2024</p>
+              </div>
+              <div><img src="images/cupon-devider.png" alt=""></div>
+              <div class="flex flex-col justify-center items-center">
+                <h1 class="text-3xl text-[#030712]">NEW15</h1>
+                <p class="text-xl text-[#03071266]">Coupon Code</p>
+              </div>
+            </div>
+            <div class="flex flex-row bg-[#F78C9C] rounded-3xl w-[573px] ">
+              <div class="flex flex-col justify-center items-center text-[#030712CC]">
+                <h1 class="text-4xl">20% OFF</h1>
+                <p class="text-xl">on your next purchase</p>
+                <p class="text-base text-[#03071280]">use by January 2024</p>
+              </div>
+              <div>
+                <img class="" src="images/cupon-devider.png" alt="">
+              </div>
+              <div class="flex flex-col justify-center items-center">
+                <h1 class="text-3xl text-[#030712]">Couple 20 </h1>
+                <p class="text-xl text-[#03071266]">Coupon Code</p>
+              </div>
+            </div>
+          </div>
+          <button class="text-xl text-[#1DD100] rounded-lg border">See All Offers</button>
+        </section>
     </header>
     <main>
-
     </main>
     <footer>
 
